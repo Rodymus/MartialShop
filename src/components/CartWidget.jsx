@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const CartWidget = () => {
   return (
     <div>
+
+    <Link to="/Cart">
       <span class="material-symbols-outlined">shopping_cart</span>
-<span>5</span>
+      <span>5</span>
+    </Link>
+      
     </div>
   )
 }

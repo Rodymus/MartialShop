@@ -6,9 +6,9 @@ const NavBar = () => {
   return ( <div>
     <h1>Martial Shop</h1>
     <ul>
-      <Button colorScheme='blue'>Cat 1</Button>
-      <Button colorScheme='blue'>Cat 2</Button>
-      <Button colorScheme='blue'>Cat 3</Button>
+      <Button colorScheme='blue'>Guantes</Button>
+      <Button colorScheme='blue'>Uniformes</Button>
+      <Button colorScheme='blue'>Cinturones</Button>
       
     </ul>
       <CartWidget />
