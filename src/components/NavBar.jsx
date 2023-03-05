@@ -1,19 +1,28 @@
 import React from "react";
 import CartWidget from "./CartWidget";
-import { Button, ButtonGroup } from '@chakra-ui/react';
+import { Button, ButtonGroup, Box, Flex, Spacer, Text } from '@chakra-ui/react';
+import Categorias from "./Categorias";
+
+
+
+
+
 
 const NavBar = () => {
-  return ( <div>
-    <h1>Martial Shop</h1>
-    <ul>
-      <Button colorScheme='blue'>Guantes</Button>
-      <Button colorScheme='blue'>Uniformes</Button>
-      <Button colorScheme='blue'>Cinturones</Button>
-      
-    </ul>
-      <CartWidget />
-      
-  </div>
+  return ( 
+  <Flex minWidth='max-content' alignItems='center' gap='2'>
+    <Box p='2'>
+      <Text fontSize='4xl' as='b'>Martial Shop</Text>
+    </Box>
+  <Spacer />
+  
+  <ButtonGroup gap='2'>
+    <Button colorScheme='teal'><Categorias /></Button>
+    <Button colorScheme='teal'><CartWidget /></Button>
+  </ButtonGroup>
+
+  </Flex>
+
   );
 };
 

@@ -11,14 +11,13 @@ const App = () => {
   <>
   <ChakraProvider> 
   <BrowserRouter>
-  
-    <NavBar />
-    <Welcome />
-    <Link to="/ItemListContainer">
-    <ItemListContainer greeting={"Bienvenidos a Martial Shop!!!"} />
-    </Link>
+  <NavBar />
+  <Routes>
+          <Route exact path="/" element={<Welcome />} />
+          <Route exact path="/catalogue" element={<ItemListContainer greeting={"Bienvenidos a Martial Shop!!!"} />} />
+  </Routes>
     
-  
+      
   </BrowserRouter>
   </ChakraProvider>
   </>
