@@ -10,7 +10,7 @@ import Categorias from "./Categorias";
 
 const NavBar = () => {
   return ( 
-  <Flex minWidth='max-content' alignItems='center' gap='2'>
+  <Flex minWidth='max-content' alignItems='center' gap='50'>
     <Box p='2'>
       <Text fontSize='4xl' as='b'>Martial Shop</Text>
     </Box>

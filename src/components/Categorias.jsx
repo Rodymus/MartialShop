@@ -10,7 +10,7 @@ const Categorias = () => {
     <MenuList>
       <MenuItem>Guantes</MenuItem>
       <MenuItem>Uniformes</MenuItem>
-      <MenuItem>Cinturones</MenuItem>
+      <MenuItem onClick={() => alert('Kiai')}>Cinturones</MenuItem>
     </MenuList>
   </Menu> 
         
