@@ -6,7 +6,7 @@ const Welcome = () =>  {
     <Center>
       <Box>
         <Image src="https://seeklogo.com/images/M/mortal-kombat-logo-62FC43E80B-seeklogo.com.png" alt="Mortal" />
-      
+  
       </Box>
     </Center>
             
