@@ -1,4 +1,4 @@
-import { Image } from "@chakra-ui/react";
+import { Image, Card, CardHeader, CardBody, CardFooter, Box, Stack, Heading, Divider } from "@chakra-ui/react";
 
 const Items = () => {
   const datos = [
@@ -36,12 +36,26 @@ const Items = () => {
       <h1>Lista de Productos</h1>
       {/* <ItemList data={data}/> */}
       {datos.map((prod) => {
+
         return (
+                    
           <div key={prod.id}>
-            <h5>{prod.nombre}</h5>
-            <h5>{prod.precio}</h5>
-            <Image src={prod.url}/>
+          <Card>
+            <Heading size='md'>{prod.nombre}</Heading>
+            <CardBody>
+            
+            <h5>Precio $: {prod.precio}</h5>
+                        
+            <Image maxW={{ base: '100%', sm: '200px' }} src={prod.url}/>
+                        
+            </CardBody>
+          <Divider />
+          </Card>
           </div>
+
+          
+
+          
         );
       })}
     </>
