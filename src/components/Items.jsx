@@ -1,8 +1,10 @@
+import { Image } from "@chakra-ui/react";
+
 const Items = () => {
   const datos = [
-    { id: 1, nombre: 'A', precio: 1000 },
-    { id: 2, nombre: 'B', precio: 1500 },
-    { id: 3, nombre: 'C', precio: 500 },
+    { id: 1, nombre: 'Guantes', precio: 1000, url: "https://http2.mlstatic.com/D_NQ_NP_912299-MLA45616686819_042021-O.webp" },
+    { id: 2, nombre: 'Cinturones', precio: 1500, url: "https://http2.mlstatic.com/D_NQ_NP_2X_729271-MLA53040631938_122022-F.webp"  },
+    { id: 3, nombre: 'Uniformes', precio: 500, url: "https://http2.mlstatic.com/D_NQ_NP_2X_995603-MLA46859977927_072021-F.webp"  },
   ];
 
   const getDatos = () => {
@@ -28,8 +30,7 @@ const Items = () => {
   }
 
   fetchingData();
-  //console.log(getDatos());
-
+ 
   return (
     <>
       <h1>Lista de Productos</h1>
@@ -39,6 +40,7 @@ const Items = () => {
           <div key={prod.id}>
             <h5>{prod.nombre}</h5>
             <h5>{prod.precio}</h5>
+            <Image src={prod.url}/>
           </div>
         );
       })}
