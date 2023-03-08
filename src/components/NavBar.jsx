@@ -14,8 +14,8 @@ const NavBar = () => {
   <Spacer />
   
   <ButtonGroup gap='2'>
-    <Button colorScheme='teal'><Categorias /></Button>
-    <Button colorScheme='teal'><CartWidget /></Button>
+    <Button ><Categorias /></Button>
+    <Button ><CartWidget /></Button>
   </ButtonGroup>
 
   </Flex>
