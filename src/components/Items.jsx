@@ -46,7 +46,7 @@ const Items = () => {
             
             <h5>Precio $: {prod.precio}</h5>
                         
-            <Image maxW={{ base: '100%', sm: '200px' }} src={prod.url}/>
+            <Image maxW={{ base: '100%', sm: '150px' }} src={prod.url}/>
                         
             </CardBody>
           <Divider />

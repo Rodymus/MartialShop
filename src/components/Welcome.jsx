@@ -5,7 +5,7 @@ const Welcome = () =>  {
   <div className="welcome-container">
     <Center>
       <Box>
-        <Image src="https://i0.wp.com/www.kimonosport.com/wp-content/uploads/2018/09/IMG_1990.jpg" alt="Tienda Marcial" />
+        <Image maxW={{ base: '100%', sm: '900px' }} src="https://i0.wp.com/www.kimonosport.com/wp-content/uploads/2018/09/IMG_1990.jpg" alt="Tienda Marcial" />
   
       </Box>
     </Center>
