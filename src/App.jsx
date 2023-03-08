@@ -4,20 +4,15 @@ import NavBar from './components/NavBar';
 import { ChakraProvider } from '@chakra-ui/react';
 import { Routes, Route, Link} from "react-router-dom";
 import Welcome from './components/Welcome';
-import Item from './components/Items';
-import Items from './components/Items';
 
 /*
 Rutas a configurar
-‘/’ navega a <ItemListContainer /> listo
 ‘/category/:id’  <ItemListContainer />
 ‘/item/:id’ navega a <ItemDetailContainer />
 
 Links a configurar
-Clickear en el brand debe navegar a ‘/’
 Clickear un Item.js debe navegar a /item/:id
 Clickear en una categoría del navbar debe navegar a /category/:categoryId 
-
 */
 // Para agregar
 //<Route exact path="/item/:id" element={<ItemDetailContainer />} />
@@ -36,8 +31,6 @@ const App = () => {
             
             
     </Routes>
-    
-   <Items />
       
    </ChakraProvider>
   </>
