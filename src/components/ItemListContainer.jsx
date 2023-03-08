@@ -1,12 +1,13 @@
 import React from "react";
-import Items from "./Items";
+import Item from "./Item";
+
 
 
 const ItemListContainer = ({greeting}) => {
   return (
   <>
   <div>{greeting}</div>
-  <Items />
+  <Item />
   </>
   );
 

@@ -1,6 +1,6 @@
 import { Image, Card, CardHeader, CardBody, CardFooter, Box, Stack, Heading, Divider } from "@chakra-ui/react";
 
-const Items = () => {
+const Item = () => {
   const datos = [
     { id: 1, nombre: 'Guantes', precio: 1000, url: "https://http2.mlstatic.com/D_NQ_NP_912299-MLA45616686819_042021-O.webp" },
     { id: 2, nombre: 'Cinturones', precio: 1500, url: "https://http2.mlstatic.com/D_NQ_NP_2X_729271-MLA53040631938_122022-F.webp"  },
@@ -62,4 +62,4 @@ const Items = () => {
   );
 };
 
-export default Items;
+export default Item;
