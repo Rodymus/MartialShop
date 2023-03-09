@@ -10,8 +10,8 @@ const Categorias = () => {
       </MenuButton>
     <MenuList colorScheme='teal'>
       <MenuItem ><Link to="ItemDetailContainer/1">Guantes</Link></MenuItem>
-      <MenuItem>Uniformes</MenuItem>
-      <MenuItem>Cinturones</MenuItem>
+      <MenuItem><Link to="ItemDetailContainer/2">Uniformes</Link></MenuItem>
+      <MenuItem><Link to="ItemDetailContainer/3">Cinturones</Link></MenuItem>
     </MenuList>
   </Menu> 
         

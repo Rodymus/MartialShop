@@ -17,11 +17,13 @@ function ItemDetailContainer() {const [products, setProducts] = useState([]);
 
   return (
     <div>
-      <h1>Products</h1>
+      <h1>Producto</h1>
       <ul>
         {filteredProducts.map(product => (
-          <li key={product.id}>
+          <li key={product.categoria}>
             <h2>{product.precio}</h2>
+            <Image maxW={{ base: '100%', sm: '150px' }} src={prod.url}/>
+
           </li>
         ))}
       </ul>
