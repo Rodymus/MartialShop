@@ -1,7 +1,7 @@
 const ItemDetailContainer = () => {
   return (
     <div>
-      <span>5</span>
+      <span></span>
     </div>
   )
 }

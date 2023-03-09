@@ -3,10 +3,10 @@ import Item from "./Item";
 
 
 
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer = () => {
   return (
   <>
-  <div>{greeting}</div>
+  
   <Item />
   </>
   );
