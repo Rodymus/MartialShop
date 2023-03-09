@@ -2,19 +2,19 @@
     {
       "products": [
         {
-          "id": 1, "categoria": "Guantes", "precio": 1000, "url": "https://http2.mlstatic.com/D_NQ_NP_912299-MLA45616686819_042021-O.webp"
+          "id": 1, "category": "Guantes", "precio": 1000, "url": "https://http2.mlstatic.com/D_NQ_NP_912299-MLA45616686819_042021-O.webp"
         },
         {
-          "id": 2, "categoria": "Cinturones", "precio": 1500, "url": "https://http2.mlstatic.com/D_NQ_NP_2X_729271-MLA53040631938_122022-F.webp"
+          "id": 2, "category": "Cinturones", "precio": 1500, "url": "https://http2.mlstatic.com/D_NQ_NP_2X_729271-MLA53040631938_122022-F.webp"
         },
         {
-          "id": 3, "categoria": "Uniformes", "precio": 500, "url": "https://http2.mlstatic.com/D_NQ_NP_2X_995603-MLA46859977927_072021-F.webp"  
+          "id": 3, "category": "Uniformes", "precio": 500, "url": "https://http2.mlstatic.com/D_NQ_NP_2X_995603-MLA46859977927_072021-F.webp"  
         },
         {
-          "id": 4, "categoria": "Guantes", "precio": 1010, "url": "https://media.istockphoto.com/id/159081205/es/foto/foto-de-estudio-de-una-red-guante-de-boxeo.jpg?s=612x612&w=0&k=20&c=JUnb8nS0tsNAAqzaMCmwOWCeFGoE0VSZldpjYlOAAL4="
+          "id": 4, "category": "Guantes", "precio": 1010, "url": "https://media.istockphoto.com/id/159081205/es/foto/foto-de-estudio-de-una-red-guante-de-boxeo.jpg?s=612x612&w=0&k=20&c=JUnb8nS0tsNAAqzaMCmwOWCeFGoE0VSZldpjYlOAAL4="
         },
         {
-          "id": 5, "categoria": "Cinturones", "precio": 1000, "url": "https://http2.mlstatic.com/D_NQ_NP_2X_760773-MLA46916755070_072021-F.webp"
+          "id": 5, "category": "Cinturones", "precio": 1000, "url": "https://http2.mlstatic.com/D_NQ_NP_2X_760773-MLA46916755070_072021-F.webp"
         }
        ]
     }
