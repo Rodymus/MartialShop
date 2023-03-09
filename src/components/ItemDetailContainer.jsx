@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Image, Card, CardHeader, CardBody, CardFooter, Box, Stack, Heading, Divider } from "@chakra-ui/react";
 
 function ItemDetailContainer() {
   const [products, setProd] = useState([]);
@@ -10,11 +11,17 @@ function ItemDetailContainer() {
   }, []);
 
   return (
-    <div>
-      <h1>Productos</h1>
+    <div >
+      <h1>Lista de Productos</h1>
       <ul>
         {products.map(prod => (
-          <li key={prod.id}>{prod.categoria}</li>
+        <Card>
+          <div key={prod.id}>{prod.categoria}
+          <>$ {prod.precio} </>
+          <Image maxW={{ base: '100%', sm: '150px' }} src={prod.url}/>
+          </div>
+          <Divider />
+        </Card>
         ))}
       </ul>
     </div>

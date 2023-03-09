@@ -33,7 +33,7 @@ const App = () => {
     </Routes>
 
   <Footer greeting={"Bienvenidos a Martial Shop!!!"}  />
-  <ItemDetailContainer />
+  
    </ChakraProvider>
   </>
   );
