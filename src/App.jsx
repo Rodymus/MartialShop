@@ -12,6 +12,9 @@ import Footer from './components/Footer';
 Links a configurar
 Clickear un Item.js debe navegar a /item/:id
 Clickear en una categoría del navbar debe navegar a /category/:categoryId 
+
+Vover a agregar al terminar
+ 
 */
 
 const App = () => {

@@ -9,6 +9,12 @@
         },
         {
           "id": 3, "categoria": "Uniformes", "precio": 500, "url": "https://http2.mlstatic.com/D_NQ_NP_2X_995603-MLA46859977927_072021-F.webp"  
+        },
+        {
+          "id": 4, "categoria": "Guantes", "precio": 1010, "url": "https://media.istockphoto.com/id/159081205/es/foto/foto-de-estudio-de-una-red-guante-de-boxeo.jpg?s=612x612&w=0&k=20&c=JUnb8nS0tsNAAqzaMCmwOWCeFGoE0VSZldpjYlOAAL4="
+        },
+        {
+          "id": 5, "categoria": "Cinturones", "precio": 1000, "url": "https://http2.mlstatic.com/D_NQ_NP_2X_760773-MLA46916755070_072021-F.webp"
         }
        ]
     }

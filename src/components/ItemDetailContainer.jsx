@@ -1,32 +1,34 @@
 import { useState, useEffect } from 'react';
 import { Image, Card, CardHeader, CardBody, CardFooter, Box, Stack, Heading, Divider } from "@chakra-ui/react";
+import { useParams } from 'react-router-dom';
 
-function ItemDetailContainer() {
-  const [products, setProd] = useState([]);
+function ItemDetailContainer() {const [products, setProducts] = useState([]);
+  const { category } = useParams();
 
   useEffect(() => {
     fetch('/src/data.json')
       .then(response => response.json())
-      .then(data => setProd(data.products));
+      .then(data => setProducts(data.products));
   }, []);
 
+  const filteredProducts = category
+    ? products.filter(product => product.category === category)
+    : products;
+
   return (
-    <div >
-      <h1>Lista de Productos</h1>
+    <div>
+      <h1>Products</h1>
       <ul>
-        {products.map(prod => (
-        <Card>
-          <div key={prod.id}>{prod.categoria}
-          <>$ {prod.precio} </>
-          <Image maxW={{ base: '100%', sm: '150px' }} src={prod.url}/>
-          </div>
-          <Divider />
-        </Card>
+        {filteredProducts.map(product => (
+          <li key={product.id}>
+            <h2>{product.precio}</h2>
+          </li>
         ))}
       </ul>
     </div>
   );
 }
+  
 
 export default ItemDetailContainer;
 

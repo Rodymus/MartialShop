@@ -1,4 +1,5 @@
-import {Menu, MenuButton,  MenuList,  MenuItem } from '@chakra-ui/react'
+import {Menu, MenuButton,  MenuList,  MenuItem } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 const Categorias = () => {
   return (
@@ -8,7 +9,7 @@ const Categorias = () => {
         Categorias
       </MenuButton>
     <MenuList colorScheme='teal'>
-      <MenuItem >Guantes</MenuItem>
+      <MenuItem ><Link to="ItemDetailContainer/1">Guantes</Link></MenuItem>
       <MenuItem>Uniformes</MenuItem>
       <MenuItem>Cinturones</MenuItem>
     </MenuList>
