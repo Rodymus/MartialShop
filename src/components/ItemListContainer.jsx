@@ -17,8 +17,8 @@ const ItemListContainer = () => {const [products, setProd] = useState([]);
       <ul>
         {products.map(prod => (
         <Card>
-          <div key={prod.id}>{prod.categoria}
-          <>$ {prod.precio} </>
+          <div key={prod.id}>{prod.category}
+          <> <br/> Precio $ {prod.precio} </>
           <Image maxW={{ base: '100%', sm: '150px' }} src={prod.url}/>
           </div>
           <Divider />

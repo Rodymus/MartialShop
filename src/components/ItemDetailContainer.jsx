@@ -11,18 +11,16 @@ function ItemDetailContainer() {const [products, setProducts] = useState([]);
       .then(data => setProducts(data.products));
   }, []);
 
-  const filteredProducts = category
-    ? products.filter(product => product.category === category)
-    : products;
-
+  const filteredProducts = products.filter(product => product.category == category);
+    
   return (
     <div>
       <h1>Producto</h1>
       <ul>
         {filteredProducts.map(product => (
-          <li key={product.categoria}>
+          <li key={products.category}>
             <h2>{product.precio}</h2>
-            <Image maxW={{ base: '100%', sm: '150px' }} src={prod.url}/>
+            <Image maxW={{ base: '100%', sm: '150px' }} src={product.url}/>
 
           </li>
         ))}
