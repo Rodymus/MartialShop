@@ -19,6 +19,7 @@ const App = () => {
   <>
   <ChakraProvider> 
   <NavBar />
+ 
       
     <Routes>
             <Route exact path="/" element={<Welcome />} />
@@ -32,7 +33,7 @@ const App = () => {
     </Routes>
 
   <Footer greeting={"Bienvenidos a Martial Shop!!!"}  />
-      
+  <ItemDetailContainer />
    </ChakraProvider>
   </>
   );

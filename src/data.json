@@ -1,0 +1,15 @@
+
+    {
+      "products": [
+        {
+          "id": 1, "categoria": "Guantes", "precio": 1000, "url": "https://http2.mlstatic.com/D_NQ_NP_912299-MLA45616686819_042021-O.webp"
+        },
+        {
+          "id": 2, "categoria": "Cinturones", "precio": 1500, "url": "https://http2.mlstatic.com/D_NQ_NP_2X_729271-MLA53040631938_122022-F.webp"
+        },
+        {
+          "id": 3, "categoria": "Uniformes", "precio": 500, "url": "https://http2.mlstatic.com/D_NQ_NP_2X_995603-MLA46859977927_072021-F.webp"  
+        }
+       ]
+    }
+    
